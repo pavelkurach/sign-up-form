@@ -1,0 +1,37 @@
+@import url(https://fonts.google.com/specimen/Montserrat?category=Sans+Serif);
+@import url(https://fonts.google.com/specimen/Open+Sans?category=Sans+Serif);
+
+:root {
+	font-size: 18px;
+	font-family: Open Sans, sans-serif;
+}
+
+#form {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+#form-header {
+	width: 100%;
+}
+
+.two-inputs-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 40px;
+}
+
+.input-container {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	max-width: 10rem;
+}
+
+.input-container label {
+	font-family: Monserrat, sans-serif;
+	font-weight: lighter;
+	font-size: 0.7rem;
+}

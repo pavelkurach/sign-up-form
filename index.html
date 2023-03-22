@@ -23,59 +23,68 @@
 				</div>
 			</div>
 			<form id="form" action="" method="get">
-				<h1>Let's do this</h1>
-				<div class="input-container" id="first-name-input-container">
-					<label for="first-name">First name</label>
-					<input
-						type="text"
-						name="first_name"
-						id="first-name"
-						required
-					/>
-					<div class="error"></div>
+				<div #form-header>Let's do this</div>
+				<div class="two-inputs-container">
+					<div
+						class="input-container"
+						id="first-name-input-container"
+					>
+						<label for="first-name">FIRST NAME</label>
+						<input
+							type="text"
+							name="first_name"
+							id="first-name"
+							required
+						/>
+						<div class="error"></div>
+					</div>
+					<div class="input-container" id="last-name-input-container">
+						<label for="last-name">LAST NAME</label>
+						<input
+							type="text"
+							name="last_name"
+							id="last-name"
+							required
+						/>
+						<div class="error"></div>
+					</div>
 				</div>
-				<div class="input-container" id="last-name-input-container">
-					<label for="last-name">Last name</label>
-					<input
-						type="text"
-						name="last_name"
-						id="last-name"
-						required
-					/>
-					<div class="error"></div>
+				<div class="two-inputs-container">
+					<div class="input-container" id="email-input-container">
+						<label for="email">EMAIL</label>
+						<input type="mail" name="email" id="email" required />
+						<div class="error"></div>
+					</div>
+					<div class="input-container" id="number-input-container">
+						<label for="number">PHONE NUMBER</label>
+						<input type="tel" name="number" id="number" required />
+						<div class="error"></div>
+					</div>
 				</div>
-				<div class="input-container" id="email-input-container">
-					<label for="email">Email</label>
-					<input type="mail" name="email" id="email" required />
-					<div class="error"></div>
-				</div>
-				<div class="input-container" id="number-input-container">
-					<label for="number">Phone number</label>
-					<input type="tel" name="number" id="number" required />
-					<div class="error"></div>
-				</div>
-				<div class="input-container" id="password-input-container">
-					<label for="password">Password</label>
-					<input
-						type="password"
-						name="password"
-						id="password"
-						required
-					/>
-					<div class="error"></div>
-				</div>
-				<div
-					class="input-container"
-					id="confirm-password-input-container"
-				>
-					<label for="confirm-password">Confirm password</label>
-					<input
-						type="password"
-						name="confirm_password"
-						id="confirm-password"
-						required
-					/>
-					<div class="error"></div>
+				<div class="two-inputs-container">
+					<div class="input-container" id="password-input-container">
+						<label for="password">PASSWORD</label>
+						<input
+							type="password"
+							name="password"
+							id="password"
+							required
+						/>
+						<div class="error"></div>
+					</div>
+					<div
+						class="input-container"
+						id="confirm-password-input-container"
+					>
+						<label for="confirm-password">CONFIRM PASSWORD</label>
+						<input
+							type="password"
+							name="confirm_password"
+							id="confirm-password"
+							required
+						/>
+						<div class="error"></div>
+					</div>
 				</div>
 			</form>
 			<div class="button-container">
