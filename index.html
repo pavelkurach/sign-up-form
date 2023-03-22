@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<script src="script.js" defer></script>
+		<title>Sign-up form</title>
+	</head>
+	<body>
+		<div class="logo-container">ODIN</div>
+		<div class="main-container">
+			<div class="header">
+				<div>
+					This is not a real online service! You know you need
+					something like this in your life to help you realize your
+					deepest dreams.
+				</div>
+				<div>
+					Sign up <i>now</i> to get started. You <i>know</i> you want
+					to.
+				</div>
+			</div>
+			<form id="form" action="" method="get">
+				<h1>Let's do this</h1>
+				<div class="input-container" id="first-name-input-container">
+					<label for="first-name">First name</label>
+					<input
+						type="text"
+						name="first_name"
+						id="first-name"
+						required
+					/>
+					<div class="error"></div>
+				</div>
+				<div class="input-container" id="last-name-input-container">
+					<label for="last-name">Last name</label>
+					<input
+						type="text"
+						name="last_name"
+						id="last-name"
+						required
+					/>
+					<div class="error"></div>
+				</div>
+				<div class="input-container" id="email-input-container">
+					<label for="email">Email</label>
+					<input type="mail" name="email" id="email" required />
+					<div class="error"></div>
+				</div>
+				<div class="input-container" id="number-input-container">
+					<label for="number">Phone number</label>
+					<input type="tel" name="number" id="number" required />
+					<div class="error"></div>
+				</div>
+				<div class="input-container" id="password-input-container">
+					<label for="password">Password</label>
+					<input
+						type="password"
+						name="password"
+						id="password"
+						required
+					/>
+					<div class="error"></div>
+				</div>
+				<div
+					class="input-container"
+					id="confirm-password-input-container"
+				>
+					<label for="confirm-password">Confirm password</label>
+					<input
+						type="password"
+						name="confirm_password"
+						id="confirm-password"
+						required
+					/>
+					<div class="error"></div>
+				</div>
+			</form>
+			<div class="button-container">
+				<button type="submit" form="form">Create account</button>
+				<div>Already have an account? <a href="">Log in</a></div>
+			</div>
+		</div>
+	</body>
+</html>

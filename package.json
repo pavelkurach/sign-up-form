@@ -1,0 +1,16 @@
+{
+  "name": "sign-up-form",
+  "version": "1.0.0",
+  "description": "Sign-up form, assignment for the Odin Project",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.8.0"
+  }
+}
