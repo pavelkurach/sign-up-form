@@ -62,6 +62,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	z-index: 3;
+	flex: 1;
 }
 
 #header {
@@ -115,6 +116,41 @@ body {
 	font-size: 0.7rem;
 }
 
+#form input {
+	border-radius: 4px;
+	outline: none;
+	border: 1px solid rgb(222, 222, 222);
+	background-color: rgb(253, 253, 253);
+	height: 1.5rem;
+}
+
+#form input:hover {
+	background-color: rgb(248, 248, 248);
+}
+
+#form input:focus {
+	background-color: white;
+}
+
+#form input:valid {
+	background-color: rgb(249, 252, 246);
+	border-color: rgb(226, 235, 214);
+}
+
+#form input:valid:focus {
+	background-color: white;
+}
+
+#form input:invalid {
+	background-color: rgb(248, 234, 234);
+	border-color: rgb(238, 226, 226);
+}
+
+.error {
+	font-size: 0.75rem;
+	color: red;
+}
+
 #button-container {
 	padding-left: var(--padding-left);
 	padding-right: var(--padding-left);
@@ -136,7 +172,7 @@ body {
 }
 
 #button-container > button:hover {
-	background-color: rgb(74, 74, 74);
+	background-color: rgb(67, 67, 67);
 }
 
 #button-container a {
